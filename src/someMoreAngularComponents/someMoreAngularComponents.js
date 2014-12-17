@@ -9,7 +9,7 @@ angular.module('someMoreAngularComponents.config', [])
     });
 
 // Modules
-angular.module('someMoreAngularComponents.directives', []);
+angular.module('someMoreAngularComponents.directives', ['helloWorld']);
 angular.module('someMoreAngularComponents.filters', []);
 angular.module('someMoreAngularComponents.services', []);
 angular.module('someMoreAngularComponents',
