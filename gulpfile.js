@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
+    jshint = require('gulp-jshint'),
     sourceFiles = [
       'src/someMoreAngularComponents/someMoreAngularComponents.prefix',
       'src/someMoreAngularComponents/someMoreAngularComponents.js',
@@ -12,7 +13,13 @@ var gulp = require('gulp'),
       'src/someMoreAngularComponents/someMoreAngularComponents.suffix'
     ];
 
-gulp.task('build', function() {
+gulp.task('lint', function() {
+    return gulp.src(['src/**/*.js','test/**/*.js'])
+        .pipe(jshint('.jshintrc'))
+        .pipe(jshint.reporter("fail"));
+});
+
+gulp.task('build', ['lint', 'test-src'], function() {
   gulp.src(sourceFiles)
     .pipe(concat('some-more-angular-components.js'))
     .pipe(gulp.dest('./dist/'))
@@ -51,4 +58,4 @@ gulp.task('test-dist-minified', function (done) {
   }, done);
 });
 
-gulp.task('default', ['test-src', 'build']);
+gulp.task('default', ['build']);
