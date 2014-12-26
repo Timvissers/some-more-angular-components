@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
     jshint = require('gulp-jshint'),
+    ngAnnotate = require('gulp-ng-annotate'),
     sourceFiles = [
         'src/someMoreAngularComponents/someMoreAngularComponents.prefix',
         'src/someMoreAngularComponents/someMoreAngularComponents.js',
@@ -16,7 +17,8 @@ var gulp = require('gulp'),
 gulp.task('lint', function () {
     return gulp.src(['src/**/*.js', 'test/**/*.js'])
         .pipe(jshint('.jshintrc'))
-        .pipe(jshint.reporter("fail"));
+        .pipe(jshint.reporter("fail"))
+        .pipe(ngAnnotate());
 });
 
 gulp.task('build', ['lint', 'test-src'], function () {
