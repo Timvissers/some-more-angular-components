@@ -1,33 +1,33 @@
 {
-  "name": "some-more-angular-components",
-  "version": "0.0.0",
-  "author": {
-    "name": "Tim Vissers",
-    "email": "tim.vissers@belgacom.net"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "chai-jquery": "^2.0.0",
-    "gulp": "^3.8.10",
-    "gulp-concat": "^2.4.2",
-    "gulp-jshint": "^1.9.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.0.2",
-    "karma": "^0.12.28",
-    "karma-chai": "^0.1.0",
-    "karma-chai-jquery": "^1.0.0",
-    "karma-chrome-launcher": "^0.1.7",
-    "karma-jasmine": "^0.3.2",
-    "karma-jquery": "^0.1.0",
-    "karma-mocha": "^0.1.10",
-    "karma-phantomjs-launcher": "^0.1.4",
-    "karma-sinon-chai": "^0.2.0",
-    "mocha": "^2.0.1",
-    "sinon": "^1.12.2",
-    "sinon-chai": "^2.6.0"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  }
+    "name": "some-more-angular-components",
+    "version": "0.0.0",
+    "author": {
+        "name": "Tim Vissers",
+        "email": "tim.vissers@belgacom.net"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^1.10.0",
+        "chai-jquery": "^2.0.0",
+        "gulp": "^3.8.10",
+        "gulp-concat": "^2.4.2",
+        "gulp-jshint": "^1.9.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-uglify": "^1.0.2",
+        "karma": "^0.12.28",
+        "karma-chai": "^0.1.0",
+        "karma-chai-jquery": "^1.0.0",
+        "karma-chrome-launcher": "^0.1.7",
+        "karma-jasmine": "^0.3.2",
+        "karma-jquery": "^0.1.0",
+        "karma-mocha": "^0.1.10",
+        "karma-phantomjs-launcher": "^0.1.4",
+        "karma-sinon-chai": "^0.2.0",
+        "mocha": "^2.0.1",
+        "sinon": "^1.12.2",
+        "sinon-chai": "^2.6.0"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
 }

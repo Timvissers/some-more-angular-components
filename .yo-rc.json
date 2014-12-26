@@ -1,31 +1,31 @@
 {
-  "generator-angularjs-library": {
-    "props": {
-      "author": {
-        "name": "Tim Vissers",
-        "email": "tim.vissers@belgacom.net"
-      },
-      "libraryName": {
-        "original": "some-more-angular-components",
-        "camelized": "someMoreAngularComponents",
-        "dasherized": "some-more-angular-components",
-        "slugified": "some-more-angular-components",
-        "parts": [
-          "some",
-          "more",
-          "angular",
-          "components"
-        ]
-      },
-      "includeModuleDirectives": true,
-      "includeModuleFilters": true,
-      "includeModuleServices": true,
-      "includeAngularModuleResource": false,
-      "includeAngularModuleCookies": false,
-      "includeAngularModuleSanitize": false,
-      "librarySrcDirectory": "src/someMoreAngularComponents",
-      "libraryUnitTestDirectory": "test/unit/someMoreAngularComponents",
-      "libraryUnitE2eDirectory": "test/e2e/someMoreAngularComponents"
+    "generator-angularjs-library": {
+        "props": {
+            "author": {
+                "name": "Tim Vissers",
+                "email": "tim.vissers@belgacom.net"
+            },
+            "libraryName": {
+                "original": "some-more-angular-components",
+                "camelized": "someMoreAngularComponents",
+                "dasherized": "some-more-angular-components",
+                "slugified": "some-more-angular-components",
+                "parts": [
+                    "some",
+                    "more",
+                    "angular",
+                    "components"
+                ]
+            },
+            "includeModuleDirectives": true,
+            "includeModuleFilters": true,
+            "includeModuleServices": true,
+            "includeAngularModuleResource": false,
+            "includeAngularModuleCookies": false,
+            "includeAngularModuleSanitize": false,
+            "librarySrcDirectory": "src/someMoreAngularComponents",
+            "libraryUnitTestDirectory": "test/unit/someMoreAngularComponents",
+            "libraryUnitE2eDirectory": "test/e2e/someMoreAngularComponents"
+        }
     }
-  }
 }
