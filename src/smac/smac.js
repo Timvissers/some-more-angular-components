@@ -9,9 +9,9 @@ angular.module('smac.config', [])
     });
 
 // Modules
-angular.module('smac.directives', ['helloWorld']);
+angular.module('smac.directives', ['smac-grid']);
 angular.module('smac.filters', []);
-angular.module('smac.services', []);
+angular.module('smac.services', ['smac-fetch']);
 angular.module('smac',
     [
         'smac.config',

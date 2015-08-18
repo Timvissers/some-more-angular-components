@@ -1,0 +1,21 @@
+/*
+default styling, for now you have to provide your own styling
+*/
+
+smac-grid > div {
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+smac-grid > div:first-of-type {
+    background-color: aquamarine;
+}
+
+smac-grid > div > div{
+    display:inline-block;
+    border:1px solid #ddd;
+    width:300px;
+    line-height:50px;
+    text-align:center;
+}

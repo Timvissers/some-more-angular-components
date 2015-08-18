@@ -13,11 +13,11 @@
     "noarg": true,
     "node": true,
     "quotmark": "single",
-    "predef": ["angular", "inject", "assert"],
+    "predef": ["angular", "inject", "assert", "fetch"],
     "regexp": true,
     "undef": true,
     "unused": true,
-    "strict": true,
+    "strict": false,
     "trailing": true,
     "smarttabs": true,
     "white": true
