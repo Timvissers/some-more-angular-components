@@ -12,8 +12,7 @@
   ],
   "ignore": [
     "src",
-    "test",
-    "*.*"
+    "test"
   ],
   "dependencies": {
     "angular": "~1.4.3"
