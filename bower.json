@@ -13,8 +13,7 @@
   "ignore": [
     "src",
     "test",
-    "Gruntfile.js",
-    "**/.*"
+    "*.*"
   ],
   "dependencies": {
     "angular": "~1.4.3"
