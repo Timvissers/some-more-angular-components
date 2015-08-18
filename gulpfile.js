@@ -6,12 +6,12 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     ngAnnotate = require('gulp-ng-annotate'),
     sourceFiles = [
-        'src/someMoreAngularComponents/someMoreAngularComponents.prefix',
-        'src/someMoreAngularComponents/someMoreAngularComponents.js',
-        'src/someMoreAngularComponents/directives/**/*.js',
-        'src/someMoreAngularComponents/filters/**/*.js',
-        'src/someMoreAngularComponents/services/**/*.js',
-        'src/someMoreAngularComponents/someMoreAngularComponents.suffix'
+        'src/smac/smac.prefix',
+        'src/smac/smac.js',
+        'src/smac/directives/**/*.js',
+        'src/smac/filters/**/*.js',
+        'src/smac/services/**/*.js',
+        'src/smac/smac.suffix'
     ];
 
 gulp.task('lint', function () {

@@ -13,27 +13,27 @@ describe('', function () {
     beforeEach(function () {
 
         // Get module
-        module = angular.module('someMoreAngularComponents');
+        module = angular.module('smac');
         dependencies = module.requires;
     });
 
     it('should load config module', function () {
-        expect(hasModule('someMoreAngularComponents.config')).to.be.ok;
+        expect(hasModule('smac.config')).to.be.ok;
     });
 
 
     it('should load filters module', function () {
-        expect(hasModule('someMoreAngularComponents.filters')).to.be.ok;
+        expect(hasModule('smac.filters')).to.be.ok;
     });
 
 
     it('should load directives module', function () {
-        expect(hasModule('someMoreAngularComponents.directives')).to.be.ok;
+        expect(hasModule('smac.directives')).to.be.ok;
     });
 
 
     it('should load services module', function () {
-        expect(hasModule('someMoreAngularComponents.services')).to.be.ok;
+        expect(hasModule('smac.services')).to.be.ok;
     });
 
 

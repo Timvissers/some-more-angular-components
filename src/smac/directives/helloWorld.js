@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('helloWorld', []) //TODO should not be another module
+angular.module('helloWorld', [])
     .directive('helloWorld',function(){
       return{
         restrict: 'E',
