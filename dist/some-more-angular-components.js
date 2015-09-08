@@ -42,12 +42,13 @@ angular.module('smac-grid', [])
         return {
             restrict: 'E',
             scope: {
-                list: '=',
-                fields: '='
+                list: '@',
+                fields: '@'
             },
             templateUrl: 'smac-grid.html'
         };
     });
+
 angular.module('smac-fetch', [])
     .provider('SMACJsonFetcher', function(){
         var defaultJsonHeaders = {
