@@ -11,7 +11,7 @@ angular.module('smac.config', [])
 // Modules
 angular.module('smac.directives', ['smac-grid']);
 angular.module('smac.filters', []);
-angular.module('smac.services', ['smac-fetch']);
+angular.module('smac.services', ['smac-error-handler', 'smac-fetch']);
 angular.module('smac',
     [
         'smac.config',

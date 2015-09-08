@@ -35,6 +35,19 @@ It is just using DIVs, you have to provide your own styling. A default style is 
 
 # services
 
+## smac-error-handler
+
+A custom error handler that enables setting/getting/resetting error messages
+
+### How to use
+
+Make your angular module depend on this angular module 'smac-error-handler'. Inject the SMACErrorHandler service and use the setError, getError and resetError functions.
+You could bind on the getError.
+
+	SMACErrorHandler.setError('Unexpected error');
+
+	SMACErrorHandler.getError() //bind to it, watch on it, ...
+
 ## smac-fetch
 
 A custom rest service, implemented using fetch API: https://developer.mozilla.org/en/docs/Web/API/Fetch_API.
@@ -48,7 +61,7 @@ Sure I could use $resource or restangular, or even straight $http. But for the s
 
 ### How to use
 
-Make your angular module depend on this angular module 'smac-grid'. Inject the 'SMACJsonFetcher'. 
+Make your angular module depend on this angular module 'smac-fetch'. Inject the 'SMACJsonFetcher'. 
 Similar to Restangular, you can create a fetcher for 'all' on which you can getList() or addOne()
 You can also create a fetcher for 'one' on which you can 'putOne', 'getOne' and 'deleteOne'
 
