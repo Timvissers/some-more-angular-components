@@ -3,9 +3,20 @@
 This library contains some custom components. These components are simple, reusable and maintainable web components are written in Angular 1.4. 
 These components are written in a way that should allow them to be easily upgraded for Angular 2.0.
 Using great Angular libraries is what you (should) do in your day to day job. This codebase is merely to bring my Angular knowledge to another level. 
-The components are for learning and testing sake and provide limited functionality. They are not full-blown and should not be used in production code. Their code is the docs.
+The components are for learning and testing sake and provide limited functionality. They are not full-blown and should not be used in production code. 
 
 Most of the components are used in https://github.com/timv2/petstore
+
+Technologies used:
+* angular 1.4
+* npm
+* karma
+* jasmine
+* protractor TODO
+* semver
+
+Not used:
+* any angular libraries as this is not the scope of the project
 
 # install and include this library
 
