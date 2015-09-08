@@ -5,6 +5,8 @@ These components are written in a way that should allow them to be easily upgrad
 Using great Angular libraries is what you (should) do in your day to day job. This codebase is merely to bring my Angular knowledge to another level. 
 The components are for learning and testing sake and provide limited functionality. They are not full-blown and should not be used in production code. Their code is the docs.
 
+Most, if not all of the components are used in https://github.com/timv2/petstore
+
 # install and include this library
 
 	bower install some-more-angular-components
