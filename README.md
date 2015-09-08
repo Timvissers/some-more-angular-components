@@ -14,6 +14,7 @@ Technologies used:
 * jasmine
 * protractor TODO
 * semver
+* fetch API
 
 Not used:
 * any angular libraries as this is not the scope of the project
