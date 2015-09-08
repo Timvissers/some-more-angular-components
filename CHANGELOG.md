@@ -1,9 +1,3 @@
-# 0.1.1
-
-## Bug Fix
-
-- Grid directive has one way binding for attributes instead of two way
-
 # 0.1.0
 
 ## Feature
